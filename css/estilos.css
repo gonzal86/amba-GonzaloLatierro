@@ -8,54 +8,316 @@
   display: grid;
   grid-template: auto auto auto auto / 0.5fr 2fr 0.5fr;
   height: 100vh; }
-  .container_1 .galeria {
-    display: grid;
-    padding-bottom: 3em;
-    padding-top: 3em;
-    padding-left: 30px;
-    padding-right: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 200px;
-    grid-template-areas: 'img1 img2 img3' 'img4 img5 img6' 'img7 img8 img9';
-    gap: 0.8em; }
-    .container_1 .galeria .galeria_imagenes {
-      position: relative;
-      cursor: pointer;
-      overflow: hidden; }
-    .container_1 .galeria .galeria_img {
-      width: 100%;
-      height: 100%;
-      /*la imagen no pierde la resolucion */
-      object-fit: cover; }
-    .container_1 .galeria .galeria_imagenes--g1 {
-      grid-area: img1;
-      background-color: aqua; }
-    .container_1 .galeria .galeria_imagenes--g2 {
-      grid-area: img2;
-      background-color: #295757; }
-    .container_1 .galeria .galeria_imagenes--g3 {
-      grid-area: img3;
-      background-color: #00ff22; }
-    .container_1 .galeria .galeria_imagenes--g4 {
-      grid-area: img4;
-      background-color: #0011ff; }
-    .container_1 .galeria .galeria_imagenes--g5 {
-      grid-area: img5;
-      background-color: #6e094d; }
-    .container_1 .galeria .galeria_imagenes--g6 {
-      grid-area: img6;
-      background-color: #9ba323; }
-    .container_1 .galeria .galeria_imagenes--g7 {
-      grid-area: img7;
-      background-color: #f0763d; }
-    .container_1 .galeria .galeria_imagenes--g8 {
-      grid-area: img8;
-      background-color: #6080af; }
-    .container_1 .galeria .galeria_imagenes--g9 {
-      grid-area: img9;
-      background-color: #da9ccc; }
+  .container_1 .main_productos {
+    background: white;
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+    margin-top: 5%;
+    margin-bottom: 4%; }
+    .container_1 .main_productos .galeria {
+      display: grid;
+      padding-bottom: 3em;
+      padding-top: 3em;
+      padding-left: 30px;
+      padding-right: 30px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 200px;
+      grid-template-areas: 'img1 img2 img3' 'img4 img5 img6' 'img7 img8 img9';
+      gap: 0.8em; }
+      .container_1 .main_productos .galeria h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        background-color: white;
+        color: black;
+        font-size: 3.2rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes {
+        cursor: pointer;
+        overflow: hidden; }
+      .container_1 .main_productos .galeria .galeria_img {
+        width: 100%;
+        height: 100%;
+        /*la imagen no pierde la resolucion */
+        object-fit: cover; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g1 {
+        height: 100%;
+        grid-area: img1;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g1 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #cc1b1b;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g1 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g1 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g2 {
+        height: 100%;
+        grid-area: img2;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g2 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #da18b0;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g2 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g2 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g3 {
+        height: 100%;
+        grid-area: img3;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g3 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #c8e235;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g3 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g3 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g4 {
+        height: 100%;
+        grid-area: img4;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g4 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #29dd32;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g4 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g4 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g5 {
+        height: 100%;
+        grid-area: img5;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g5 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #fda048;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g5 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g5 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g6 {
+        height: 100%;
+        grid-area: img6;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g6 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #43e7da;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g6 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g6 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g7 {
+        height: 100%;
+        grid-area: img7;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g7 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #6871f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g7 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g7 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g8 {
+        height: 100%;
+        grid-area: img8;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g8 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #96f5b6;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g8 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g8 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+      .container_1 .main_productos .galeria .galeria_imagenes--g9 {
+        height: 100%;
+        grid-area: img9;
+        position: relative;
+        display: inline-block;
+        text-align: center; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g9 .texto_cerveza {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #5ffa51;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 2.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g9 .texto_atributo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.5rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g9 .texto_precio {
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #f8f8f8;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1.8rem; }
+    .container_1 .main_productos h1 {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: normal;
+      background-color: white;
+      color: black;
+      font-size: 3.2rem; }
   .container_1 header {
-    background-color: #2d7b8f;
+    background-color: #131212;
     padding: 1rem;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
@@ -89,11 +351,23 @@
         font-size: 1.8rem;
         padding: 2%; }
         .container_1 header .div_enlaces a:hover {
-          color: black; }
+          color: #4ea58f; }
   .container_1 main {
     background: white;
     grid-column: 1 / 4;
     grid-row: 2 / 4; }
+    .container_1 main h1 {
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: normal;
+      font-size: 6.9rem;
+      color: black; }
+    .container_1 main h2 {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: normal;
+      font-size: 4.1rem;
+      color: black; }
     .container_1 main .section_main_index {
       display: flex;
       justify-content: space-around;
@@ -105,6 +379,7 @@
         text-align: center;
         color: black; }
   .container_1 .main_nosotros {
+    margin-top: 5%;
     display: block;
     justify-content: space-between;
     background-color: white;
@@ -116,8 +391,9 @@
       text-align: center;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-style: normal;
-      background-color: #78cbce;
-      color: #425858; }
+      background-color: white;
+      font-size: 3.2rem;
+      color: black; }
     .container_1 .main_nosotros .section_main_index {
       display: flex;
       justify-content: space-around;
@@ -126,12 +402,14 @@
       list-style: none; }
       .container_1 .main_nosotros .section_main_index p {
         text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: black;
         font-size: 1.6rem;
-        padding: 2%; }
+        padding: 1.4%;
+        margin-left: 25px; }
       .container_1 .main_nosotros .section_main_index a {
         text-decoration: none;
-        color: #11067a;
+        color: #296d58;
         font-size: 1.5rem;
         padding: 2%;
         font-weight: bold; }
@@ -142,13 +420,16 @@
     list-style: none;
     grid-column: 1 / 4;
     grid-row: 2 / 4;
-    width: 100%; }
+    width: 100%;
+    margin-top: 6%;
+    margin-bottom: 5%; }
     .container_1 .main_cursos h1 {
       text-align: center;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-style: normal;
-      background-color: #78cbce;
-      color: #425858; }
+      background-color: white;
+      color: black;
+      font-size: 3.2rem; }
     .container_1 .main_cursos section {
       margin-top: 30px;
       margin-left: 15%;
@@ -157,24 +438,39 @@
       .container_1 .main_cursos section p {
         text-decoration: none;
         color: black;
-        font-size: 1.6rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.4rem;
         padding: 2%; }
+      .container_1 .main_cursos section h3 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        color: black; }
       .container_1 .main_cursos section div {
         margin-left: 20%; }
+      .container_1 .main_cursos section .mapa_centro {
+        text-align: center;
+        margin-left: 0%; }
   .container_1 footer {
-    background-color: #2d7b8f;
+    background-color: #131212;
     grid-column: 1 / 4;
     grid-row: 4 / 5;
     display: inline-block;
     text-align: center;
     padding: 2%;
     color: white; }
-  .container_1 .main_centro h1 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: normal;
-    background-color: #78cbce;
-    color: #425858; }
+  .container_1 .main_contacto {
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4%; }
+    .container_1 .main_contacto h1 {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: normal;
+      background-color: white;
+      color: black;
+      font-size: 3.2rem; }
 
 @media all and (max-width: 1050px) {
   .container_1 {
@@ -183,7 +479,7 @@
     grid-template-rows: auto auto auto auto;
     height: 100vh; }
     .container_1 header {
-      background-color: #2d7b8f;
+      background-color: black;
       grid-row: 1 / 2;
       display: flex;
       justify-content: center;
@@ -212,20 +508,14 @@
         width: 100%; }
         .container_1 main .section_main_index .div_individual_index {
           color: black; }
-    .container_1 .main_centro {
-      margin-top: 30px;
-      margin-left: 20px;
-      grid-column: 1 / 3;
-      margin-bottom: 50%; }
-      .container_1 .main_centro h1 {
+    .container_1 .main_contacto {
+      margin-bottom: 20%;
+      width: 100%;
+      height: 100%; }
+      .container_1 .main_contacto h1 {
         display: none; }
-    .container_1 .galeria {
-      margin-left: 10px;
-      grid-template-columns: repeat(1, 400px);
-      margin-bottom: 22%;
-      grid-template-areas: 'img1' 'img2' 'img3' 'img4' 'img5' 'img6' 'img7' 'img8' 'img9'; }
     .container_1 footer {
-      background-color: #2d7b8f;
+      background-color: black;
       grid-column: 1 / 4;
       grid-row: 7 / 8;
       display: inline-block;
@@ -265,4 +555,9 @@
         color: black;
         font-size: 1.2rem; }
     .container_1 .main_cursos h1 {
-      display: none; } }
+      display: none; }
+    .container_1 .main_productos .galeria {
+      margin-left: 10px;
+      grid-template-columns: repeat(1, 400px);
+      margin-bottom: 22%;
+      grid-template-areas: 'img1' 'img2' 'img3' 'img4' 'img5' 'img6' 'img7' 'img8' 'img9'; } }
