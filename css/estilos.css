@@ -24,7 +24,7 @@
     .container_1 .main_productos .galeria {
       display: grid;
       padding-bottom: 3em;
-      padding-top: 3em;
+      padding-top: 6%;
       padding-left: 30px;
       padding-right: 30px;
       grid-template-columns: repeat(3, 1fr);
@@ -668,6 +668,6 @@
     .container_1 .main_productos {
       margin-bottom: 1%; }
       .container_1 .main_productos .galeria {
-        margin-left: 10px;
-        grid-template-columns: repeat(1, 400px);
+        margin-top: 1%;
+        grid-template-columns: repeat(1, 429px);
         grid-template-areas: 'img1' 'img2' 'img3' 'img4' 'img5' 'img6' 'img7' 'img8' 'img9'; } }

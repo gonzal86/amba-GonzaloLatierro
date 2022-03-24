@@ -30,7 +30,7 @@
         .galeria {
             display: grid;
             padding-bottom: 3em;
-            padding-top: 3em;
+            padding-top: 6%;
             padding-left: 30px;
             padding-right: 30px;
             grid-template-columns: repeat(3, 1fr);
@@ -927,9 +927,11 @@
         .main_productos {
             margin-bottom: 1%;
 
+
+
             .galeria {
-                margin-left: 10px;
-                grid-template-columns: repeat(1, 400px);
+                margin-top: 1%;
+                grid-template-columns: repeat(1, 429px);
                 grid-template-areas:
                     'img1'
                     'img2'
