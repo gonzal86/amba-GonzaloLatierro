@@ -787,7 +787,7 @@
         width: 350px;
         height: 230px;
         margin-top: 5px;
-        margin-left: 1px; }
+        margin-left: 3px; }
       .container_1 .main_nosotros .fotos :hover {
         transform: none;
         border-radius: 0;
@@ -816,10 +816,10 @@
       .container_1 .main_cursos section .fotos {
         margin-left: 2px; }
         .container_1 .main_cursos section .fotos .tamaño {
-          width: 330px;
+          width: 350px;
           height: 230px;
           margin-top: 5px;
-          margin-left: 1px; }
+          margin-left: 3px; }
         .container_1 .main_cursos section .fotos :hover {
           transform: none;
           border-radius: 0;
