@@ -60,7 +60,6 @@
                 display: inline-block;
                 text-align: center;
 
-
                 .texto_cerveza {
                     position: absolute;
                     top: 20%;
@@ -482,7 +481,6 @@
 
         .section_main_index {
 
-
             margin: auto;
             margin-top: 6%;
             margin-bottom: 110px;
@@ -621,7 +619,7 @@
                 font-size: 1.4rem;
                 margin-left: 15%;
                 margin-right: 12%;
-                padding: 10px;
+                padding: 1.4%;
             }
 
             div {
@@ -710,7 +708,19 @@
             margin-top: 5%;
             margin-left: 20%;
             margin-right: 20%;
-            margin-bottom: 5%;
+            margin-bottom: 4%;
+            background-color: rgb(231, 231, 227);
+            border-radius: 20px;
+            box-shadow: 10px;
+
+            .margin-top{
+                margin-top: 5%;
+
+            }
+
+            .margin-bottom{
+                margin-bottom: 6%;
+            }
         }
     }
 }
@@ -801,7 +811,6 @@
                 background-color: rgb(255, 255, 255);
                 display: block;
                 margin-bottom: 70px;
-
 
                 .card {
                     margin-left: 17%;
@@ -926,8 +935,6 @@
 
         .main_productos {
             margin-bottom: 1%;
-
-
 
             .galeria {
                 margin-top: 1%;

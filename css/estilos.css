@@ -469,7 +469,7 @@
       font-size: 1.4rem;
       margin-left: 15%;
       margin-right: 12%;
-      padding: 10px; }
+      padding: 1.4%; }
     .container_1 .main_cursos section div {
       margin-left: 7%; }
     .container_1 .main_cursos section .fotos {
@@ -525,7 +525,14 @@
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 5%; }
+    margin-bottom: 4%;
+    background-color: #e7e7e3;
+    border-radius: 20px;
+    box-shadow: 10px; }
+    .container_1 .main_contacto .formulario .margin-top {
+      margin-top: 5%; }
+    .container_1 .main_contacto .formulario .margin-bottom {
+      margin-bottom: 6%; }
 
 @media all and (max-width: 1050px) {
   .container_1 {
