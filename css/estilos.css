@@ -534,7 +534,7 @@
     .container_1 .main_contacto .formulario .margin-bottom {
       margin-bottom: 6%; }
 
-@media all and (max-width: 1050px) {
+@media (min-width: 490px) and (max-width: 1050px) {
   .container_1 {
     display: grid;
     grid-template-columns: auto;
@@ -671,6 +671,159 @@
       .container_1 .main_cursos section .mapa_centro {
         margin-left: 1px;
         width: 480px;
+        height: 300px; }
+    .container_1 .main_productos {
+      margin-bottom: 1%; }
+      .container_1 .main_productos .galeria {
+        margin-top: 1%;
+        grid-template-columns: repeat(1, 429px);
+        grid-template-areas: 'img1' 'img2' 'img3' 'img4' 'img5' 'img6' 'img7' 'img8' 'img9'; } }
+
+@media (min-width: 310px) and (max-width: 490px) {
+  .container_1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    height: 100%;
+    width: 100%; }
+    .container_1 header {
+      background-color: black;
+      grid-row: 1 / 2;
+      display: block;
+      justify-content: center;
+      list-style: none;
+      width: 100%; }
+      .container_1 header .div_logo {
+        justify-content: center;
+        width: 100%; }
+      .container_1 header .div_enlaces {
+        justify-content: center;
+        width: 100%; }
+        .container_1 header .div_enlaces a {
+          font-size: 1.1rem;
+          padding: 1.1%; }
+    .container_1 footer .div_enlaces {
+      display: flex;
+      justify-content: center;
+      width: 100%; }
+      .container_1 footer .div_enlaces a {
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: 2%;
+        text-decoration: none;
+        color: white;
+        font-size: 0.9rem;
+        margin-left: 2%;
+        padding: 1%; }
+        .container_1 footer .div_enlaces a:hover {
+          color: #4ea58f; }
+    .container_1 footer p {
+      font-size: 0.8rem; }
+    .container_1 main {
+      display: grid;
+      grid-template-columns: auto;
+      background: white;
+      width: 100%; }
+      .container_1 main h1 {
+        justify-content: center;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: normal;
+        font-size: 3.0rem;
+        color: black; }
+      .container_1 main .color_titulo {
+        background-color: #d2d692;
+        width: 100%; }
+      .container_1 main h2 {
+        justify-content: center;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-size: 1.3rem;
+        color: black; }
+      .container_1 main .section_main_index {
+        justify-content: center;
+        background-color: white;
+        display: block;
+        margin-bottom: 50px; }
+        .container_1 main .section_main_index .card {
+          width: 305px;
+          height: 486px; }
+        .container_1 main .section_main_index .div_individual_index {
+          color: black; }
+    .container_1 .main_contacto {
+      display: block;
+      grid-template-columns: auto;
+      background: white;
+      grid-column: 1 / span 3;
+      grid-row: 2 / 4;
+      width: 100%; }
+      .container_1 .main_contacto .formulario {
+        margin-top: 12%;
+        align-items: center; }
+    .container_1 .main_nosotros {
+      display: block;
+      justify-content: center;
+      background-color: white;
+      list-style: none;
+      grid-column: 1 / span 1;
+      grid-row: 2 / 4;
+      margin-bottom: 60px; }
+      .container_1 .main_nosotros a {
+        text-decoration: none;
+        color: #11067a;
+        font-size: 1.1rem;
+        padding: 1%;
+        font-weight: bold; }
+      .container_1 .main_nosotros h1 {
+        font-size: 1.8rem; }
+      .container_1 .main_nosotros p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: black;
+        font-size: 0.8rem;
+        padding: 2%; }
+      .container_1 .main_nosotros .fotos .tamaño {
+        width: 305px;
+        height: 230px;
+        margin-top: 5px; }
+      .container_1 .main_nosotros .fotos :hover {
+        transform: none;
+        border-radius: 0;
+        overflow: none; }
+    .container_1 .main_cursos {
+      display: block;
+      justify-content: center;
+      background-color: white;
+      list-style: none;
+      grid-column: 1 / span 1;
+      grid-row: 2 / 4;
+      width: 100%;
+      margin-bottom: 5%; }
+      .container_1 .main_cursos h1 {
+        font-size: 1.8rem; }
+      .container_1 .main_cursos section p {
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.8rem;
+        padding: 2%;
+        margin-left: 1%;
+        margin-right: 1%; }
+      .container_1 .main_cursos section div {
+        margin-left: 0%; }
+      .container_1 .main_cursos section .fotos {
+        margin-left: 2px; }
+        .container_1 .main_cursos section .fotos .tamaño {
+          width: 310px;
+          height: 230px;
+          margin-top: 5px; }
+        .container_1 .main_cursos section .fotos :hover {
+          transform: none;
+          border-radius: 0;
+          overflow: none; }
+      .container_1 .main_cursos section .mapa_centro {
+        margin-left: 1px;
+        width: 310px;
         height: 300px; }
     .container_1 .main_productos {
       margin-bottom: 1%; }
