@@ -758,9 +758,20 @@
       grid-column: 1 / span 3;
       grid-row: 2 / 4;
       width: 100%; }
+      .container_1 .main_contacto h1 {
+        font-size: 1.8rem; }
       .container_1 .main_contacto .formulario {
-        margin-top: 12%;
-        align-items: center; }
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 4%;
+        background-color: #e7e7e3;
+        border-radius: 20px;
+        box-shadow: 10px; }
+        .container_1 .main_contacto .formulario .margin-top {
+          margin-top: 5%; }
+        .container_1 .main_contacto .formulario .margin-bottom {
+          margin-bottom: 6%; }
     .container_1 .main_nosotros {
       display: block;
       justify-content: center;
@@ -827,14 +838,71 @@
           border-radius: 0;
           overflow: none; }
       .container_1 .main_cursos section .mapa_centro {
-        margin-left: 2px;
-        width: 350px;
+        margin-left: 5px;
+        width: 348px;
         height: 300px; }
     .container_1 .main_productos {
+      grid-column: none;
+      grid-row: 2 / 4;
       margin-bottom: 1%; }
       .container_1 .main_productos h1 {
         font-size: 1.8rem; }
       .container_1 .main_productos .galeria {
         margin-top: 1%;
-        grid-template-columns: repeat(1, 429px);
-        grid-template-areas: 'img1' 'img2' 'img3' 'img4' 'img5' 'img6' 'img7' 'img8' 'img9'; } }
+        margin-left: 0;
+        grid-template-columns: repeat(1, 330px);
+        grid-template-areas: 'img1' 'img2' 'img3' 'img4' 'img5' 'img6' 'img7' 'img8' 'img9'; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g1 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g1 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g1 .texto_precio {
+          font-size: 1.2rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g2 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g2 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g2 .texto_precio {
+          font-size: 1.2rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g3 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g3 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g3 .texto_precio {
+          font-size: 1.2rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g4 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g4 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g4 .texto_precio {
+          font-size: 1.2rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g5 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g5 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g5 .texto_precio {
+          font-size: 1.2rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g6 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g6 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g6 .texto_precio {
+          font-size: 1.2rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g7 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g7 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g7 .texto_precio {
+          font-size: 1.2rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g8 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g8 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g8 .texto_precio {
+          font-size: 1.2rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g9 .texto_cerveza {
+          font-size: 1.8rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g9 .texto_atributo {
+          font-size: 1.3rem; }
+        .container_1 .main_productos .galeria .galeria_imagenes--g9 .texto_precio {
+          font-size: 1.2rem; } }

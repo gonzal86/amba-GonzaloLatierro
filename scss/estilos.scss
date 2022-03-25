@@ -1078,9 +1078,27 @@
             grid-row: 2 / 4;
             width: 100%;
 
+            h1 {
+                font-size: 1.8rem;
+            }
+
             .formulario {
-                margin-top: 12%;
-                align-items: center;
+                margin-top: 5%;
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-bottom: 4%;
+                background-color: rgb(231, 231, 227);
+                border-radius: 20px;
+                box-shadow: 10px;
+
+                .margin-top {
+                    margin-top: 5%;
+
+                }
+
+                .margin-bottom {
+                    margin-bottom: 6%;
+                }
             }
         }
 
@@ -1181,8 +1199,8 @@
                 }
 
                 .mapa_centro {
-                    margin-left: 2px;
-                    width: 350px;
+                    margin-left: 5px;
+                    width: 348px;
                     height: 300px;
 
                 }
@@ -1190,6 +1208,9 @@
         }
 
         .main_productos {
+
+            grid-column: none;
+            grid-row: 2 / 4;
             margin-bottom: 1%;
 
             h1 {
@@ -1198,7 +1219,8 @@
 
             .galeria {
                 margin-top: 1%;
-                grid-template-columns: repeat(1, 429px);
+                margin-left: 0;
+                grid-template-columns: repeat(1, 330px);
                 grid-template-areas:
                     'img1'
                     'img2'
@@ -1209,8 +1231,169 @@
                     'img7'
                     'img8'
                     'img9';
+
+                .galeria_imagenes--g1 {
+                    .texto_cerveza {
+
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .galeria_imagenes--g2 {
+
+
+                    .texto_cerveza {
+
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+
+                        font-size: 1.2rem;
+                    }
+
+                }
+
+                .galeria_imagenes--g3 {
+
+                    .texto_cerveza {
+
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+
+                        font-size: 1.2rem;
+                    }
+
+                }
+
+                .galeria_imagenes--g4 {
+
+                    .texto_cerveza {
+
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .galeria_imagenes--g5 {
+
+                    .texto_cerveza {
+
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .galeria_imagenes--g6 {
+
+                    .texto_cerveza {
+
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .galeria_imagenes--g7 {
+
+                    .texto_cerveza {
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .galeria_imagenes--g8 {
+
+                    .texto_cerveza {
+
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+
+                        font-size: 1.2rem;
+                    }
+                }
+
+                .galeria_imagenes--g9 {
+
+                    .texto_cerveza {
+
+                        font-size: 1.8rem;
+                    }
+
+                    .texto_atributo {
+
+                        font-size: 1.3rem;
+                    }
+
+                    .texto_precio {
+
+                        font-size: 1.2rem;
+                    }
+
+                }
+
             }
         }
     }
-
 }
